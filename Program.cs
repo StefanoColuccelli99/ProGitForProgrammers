@@ -8,6 +8,7 @@ namespace ProGitForProgrammers
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Nuova riga.");
+            Console.WriteLine("Nuova 2.");
         }
     }
 }
