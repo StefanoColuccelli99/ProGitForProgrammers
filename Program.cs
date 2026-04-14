@@ -2,14 +2,12 @@ using System;
 
 namespace ProGitForProgrammers
 {
-    class Program 
+    class Movie
     {
-        static void Main(string[] args)
+        public class Movie 
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Nuova riga.");
-            Console.WriteLine("Nuova 2.");
-            Console.WriteLine("Nuova 3.");
+            public string Title {get; set;}
+            public List<string> Actors {get; set;}
         }
     }
 }
